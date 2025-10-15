@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Karma Sarthi - Your Career Guide</title>
+    <link rel="icon" type="image/x-icon" href="Logo.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0d69c5',
+                        secondary: '#3b82f6',
+                        light: '#dbeafe'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="font-inter bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="Logo.png" class="text-primary w-8 h-8"></img>
+                        <span class="ml-2 text-xl font-semibold text-gray-900">Karma Sarthi</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="about.html" class="text-primary font-medium px-3 py-2 text-sm">About</a>
+                        <a href="contact.html" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                <a href="https://wa.me/918377927727?text=Hi%20Karma%20Sarthi,%20I%20would%20like%20to%20discuss%20my%20career%20path" class="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-secondary transition-colors shadow-sm">
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="pt-24 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white to-blue-50">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">About Karma Sarthi</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Your trusted partner in navigating the journey from student to professional
+            </p>
+        </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <img src="http://static.photos/people/640x360/7" alt="Our Team" class="rounded-2xl shadow-lg">
+                </div>
+                <div class="fade-in">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Karma Sarthi was born from a simple observation: too many students graduate without clear direction, 
+                        leading to career dissatisfaction and wasted potential. Our founder, after mentoring dozens of 
+                        students through successful career transitions, recognized the need for accessible, personalized guidance.
+                    </p>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        The name "Karma Sarthi" combines the Sanskrit words for "action" and "guide" - 
+                        reflecting our mission to be your companion in career action.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Today, we've helped hundreds of students discover meaningful career paths 
+                        and build the confidence to pursue them.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Approach -->
+<section class="py-16 px-4 sm:px-6 lg:px-8 bg-light">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-12 fade-in">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Mission & Approach</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        We believe every student deserves clarity, direction, and support in their career journey
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Mission Card -->
+      <div class="fade-in">
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
+            <i data-feather="target" class="text-white w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Mission</h3>
+          <ul class="text-gray-600 space-y-2">
+            <li class="flex items-start">
+              <i data-feather="check" class="text-primary w-4 h-4 mt-1 mr-3 flex-shrink-0"></i>
+              <span>Empower students with clarity about their career</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="check" class="text-primary w-4 h-4 mt-1 mr-3 flex-shrink-0"></i>
+              <span>Provide actionable roadmaps for professional growth</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="check" class="text-primary w-4 h-4 mt-1 mr-3 flex-shrink-0"></i>
+              <span>Build confidence through personalized mentorship</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Approach Card -->
+      <div class="fade-in">
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+          <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
+            <i data-feather="users" class="text-white w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Approach</h3>
+          <ul class="text-gray-600 space-y-2">
+            <li class="flex items-start">
+              <i data-feather="star" class="text-primary w-4 h-4 mt-1 mr-3 flex-shrink-0"></i>
+              <span>Student-first perspective in all our guidance</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="star" class="text-primary w-4 h-4 mt-1 mr-3 flex-shrink-0"></i>
+              <span>Evidence-based career assessment and planning</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="star" class="text-primary w-4 h-4 mt-1 mr-3 flex-shrink-0"></i>
+              <span>Long-term mentorship focused on sustainable growth</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Final CTA -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-primary">
+        <div class="max-w-4xl mx-auto text-center text-white fade-in">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Let's Discuss Your Career Path</h2>
+            <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
+                Ready to take the next step in your career journey? Our consultation is the perfect starting point.
+            </p>
+            <a href="https://wa.me/918377927727?text=Hi%20Karma%20Sarthi,%20I%20would%20like%20to%20discuss%20my%20career%20path" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg inline-block">
+                Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="LogoW.png" class="text-white w-6 h-6"></img>
+                    <span class="ml-2 text-lg font-semibold">Karma Sarthi</span>
+                </div>
+                <p class="text-gray-400">Guiding students to meaningful careers since 2025</p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Connect With Us</h4>
+                <div class="flex space-x-4">
+                    <a href="karmasarthi.contact@gmail.com" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="mail"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/karma-sarthi/" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/karma_sarthi/" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4">Contact</h4>
+                <p class="text-gray-400">karmasarthi.contact@gmail.com</p>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2025 Karma Sarthi. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-6 text-sm">
+                    <a href="index.html" class="hover:text-white transition-colors">Home</a>
+                    <a href="blogs.html" class="hover:text-white transition-colors">Blogs</a>
+                    <a href="about.html" class="hover:text-white transition-colors">About</a>
+                    <a href="contact.html" class="hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Fade in animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach((el) => {
+            observer.observe(el);
+        });
+
+        feather.replace();
+    </script>
+</body>
+</html>

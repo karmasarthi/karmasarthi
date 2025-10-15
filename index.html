@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karma Sarthi - Find Your Career Path</title>
+    <link rel="icon" type="image/x-icon" href="Logo.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0d69c5',
+                        secondary: '#3b82f6',
+                        light: '#dbeafe'
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="font-inter bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="Logo.png" class="text-primary w-8 h-8"></img>
+                        <span class="ml-2 text-xl font-semibold text-gray-900">Karma Sarthi</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="about.html" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">About</a>
+                        <a href="contact.html" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                <a href="https://wa.me/918377927727?text=Hi%20Karma%20Sarthi,%20I%20would%20like%20to%20discuss%20my%20career%20path" class="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-secondary transition-colors shadow-sm">
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white to-blue-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Find Your <span class="text-primary">Career Path</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    30-minute career consultation to guide you toward your professional dreams
+                </p>
+                <a href="#consultation" class="bg-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary transition-all duration-300 shadow-lg hover:shadow-xl inline-block">
+                    Book Your Call
+                </a>
+            </div>
+
+            <!-- Value Proposition -->
+            <div class="mt-20 grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center fade-in">
+                    <div class="bg-light w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="user" class="text-primary w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Personalized Guidance</h3>
+                    <p class="text-gray-600">Tailored advice that understands your unique strengths and aspirations</p>
+                </div>
+                <div class="text-center fade-in">
+                    <div class="bg-light w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="map" class="text-primary w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Clear Roadmaps</h3>
+                    <p class="text-gray-600">Actionable steps and milestones to reach your career goals</p>
+                </div>
+                <div class="text-center fade-in">
+                    <div class="bg-light w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="trending-up" class="text-primary w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Growth Mentorship</h3>
+                    <p class="text-gray-600">Continuous support focused on your long-term professional development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Your Career Journey Starts Here</h2>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                Karma Sarthi is dedicated to helping students navigate the complex world of career choices. 
+                We believe every student deserves clear direction and meaningful mentorship to unlock their full potential. 
+                Whether you're exploring options or ready to specialize, we're here to light your path forward.
+            </p>
+            <a href="contact.html" class="text-primary font-semibold hover:text-secondary transition-colors inline-flex items-center">
+                Start your journey today
+                <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section id="consultation" class="py-16 px-4 sm:px-6 lg:px-8 bg-primary">
+        <div class="max-w-4xl mx-auto text-center text-white fade-in">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Ready to Shape Your Future?</h2>
+            <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
+                Take the first step toward a career you'll love. Our 30-minute consultation is designed to give you clarity and direction.
+            </p>
+            <a href="contact.html" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg inline-block">
+                Schedule Your Session
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="LogoW.png" class="text-white w-6 h-6"></img>
+                        <span class="ml-2 text-lg font-semibold">Karma Sarthi</div>
+                    <p class="text-gray-400">Guiding students to meaningful careers since 2025</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="karmasarthi.contact@gmail.com" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="mail"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/karma-sarthi/" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/karma_sarthi/" class="text-gray-400 hover:text-white transition-colors">
+                        <i data-feather="instagram"></i>
+                    </a>
+                </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">karmasarthi.contact@gmail.com</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Karma Sarthi. All rights reserved.</p>
+                <div class="mt-4 flex justify-center space-x-6 text-sm">
+                    <a href="index.html" class="hover:text-white transition-colors">Home</a>
+                <a href="blogs.html" class="hover:text-white transition-colors">Blogs</a>
+                <a href="about.html" class="hover:text-white transition-colors">About</a>
+                <a href="contact.html" class="hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Fade in animation on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach((el) => {
+            observer.observe(el);
+        });
+
+        feather.replace();
+    </script>
+</body>
+</html>
